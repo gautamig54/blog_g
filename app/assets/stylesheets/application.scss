@@ -123,6 +123,15 @@
     margin-left: 205px;
 }
 
+#comments{
+  .comment_content,.delete_comm{
+      margin-left: 205px;
+  }
+  h3{
+      margin-left: 205px;
+  }
+}
+
 input[type="text"]{
   height: 35px;
   width: 700px;
