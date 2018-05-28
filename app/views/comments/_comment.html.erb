@@ -3,10 +3,12 @@
   <p><%= comment.body %></p>
   <p><%= time_ago_in_words(comment.created_at) %> Ago</p>
 </div>
-<div class="delete_comm">
-  <p><%= link_to 'Delete', [comment.post, comment],
-                  method: :delete,
-                  class: "button",
-                  data: {confirm: 'Are you sure?'} %>
-  </p>
-</div>
+<% if user_signed_in? %>
+  <div class="delete_comm">
+    <p><%= link_to 'Delete', [comment.post, comment],
+                    method: :delete,
+                    class: "button",
+                    data: {confirm: 'Are you sure?'} %>
+    </p>
+  </div>
+<% end %>

@@ -136,6 +136,24 @@
   margin-left: 205px;
 }
 
+h2{
+  margin-left: 205px;
+}
+
+.field{
+  p{
+    height: 35px;
+    width: 700px;
+    margin-left: 205px;
+  }
+}
+
+.actions{
+  margin-top: 20px;
+}
+
+
+
 input[type="text"]{
   height: 35px;
   width: 700px;
@@ -144,7 +162,7 @@ input[type="text"]{
 
 label{
   margin-left: 205px;
-  font-size: 2em;
+  font-size: 1em;
 }
 textarea{
   height: 45px;
